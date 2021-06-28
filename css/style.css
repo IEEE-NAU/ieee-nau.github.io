@@ -208,7 +208,7 @@ a:hover{
     }
 
     .showcasefooter #line{
-        border-left: 18rem solid rgb(129, 129, 129);
+        border-left: 0rem solid rgb(129, 129, 129);
         position: absolute;
         height: 1px;
         top:36%;
@@ -216,7 +216,7 @@ a:hover{
     }
     
     .showcasefooter #Registerline{
-        border-left: 18rem solid rgb(129, 129, 129);
+        border-left: 0rem solid rgb(129, 129, 129);
         position: absolute;
         height: 1px;
         top:61%;
@@ -230,7 +230,7 @@ a:hover{
             margin-top: 2.5rem;
         }
 
-        .showcasefooter #line{
+        /* .showcasefooter #line{
             border-left: 30rem solid rgb(129, 129, 129);
             position: absolute;
             height: 1px;
@@ -244,7 +244,7 @@ a:hover{
             height: 1px;
             top:58%;
             left:25%;
-        }
+        } */
     }
 
 
