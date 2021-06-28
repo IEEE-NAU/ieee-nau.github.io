@@ -232,6 +232,28 @@ a:hover{
     }
 }
 
+@media (max-width: 768px) {
+
+    .showcasefooter #thirdCol{
+        margin-top: 2.5rem;
+    }
+
+    .showcasefooter #line{
+        border-left: 0rem solid rgb(129, 129, 129);
+        position: absolute;
+        height: 1px;
+        top:48%;
+        left:25%;
+    }
+    
+    .showcasefooter #Registerline{
+        border-left: 0rem solid rgba(129, 129, 129, 0);
+        position: absolute;
+        height: 1px;
+        top:58%;
+        left:25%;
+    }
+
     @media (max-width: 992px) {
 
         .showcasefooter #thirdCol{
