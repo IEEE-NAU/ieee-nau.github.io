@@ -98,6 +98,15 @@ a:hover{
     background: rgb(216, 216, 216);
 }
 
+.showcaseSkillUpTwo p{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.showcaseSkillUpTwo h5{
+    font-weight: bolder;
+}
+
 .skill_up_two h5{
     color:rgb(0, 42, 78);
 }
