@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+body{
+    overflow-x: hidden;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.showcase{
+    width:100%;
+    padding-bottom: 45px;
+    position:relative;
+    background: rgb(216, 216, 216);
+}
+
+.container .header-imgs{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 2;
+    
+}
+
+.container #header-text h5{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(0, 87, 158);
+    margin-bottom: 5px;
+}
+
+#two-column-text{
+    margin-top: 30px;
+}
+
+#two-column-button{
+    padding:10px 15px;
+    margin-right:0.5rem;
+    background-color: rgb(170, 34, 0);
+    border-radius: 30px;
+    color: white;
+    /* border: 0px;
+    font-size: 1rem; */
+}
+
+#two-column-image{
+    border-radius: 10px;
+    width:100%;
+    height:100%;
+    margin-top: 30px;
+}
+
+
+.skill_up_One #skill_up_One_imgs{
+    width:300px;
+    height:200px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px #000000;
+}
+
+ h3{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(0, 87, 158);
+}
+
+/* skillUpTwoSection */
+
+.skill_up_two h3{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(0, 87, 158);
+    padding-top: 5px;
+}
+
+.skill_up_two #skill_up_two_imgs{
+    width:300px;
+    height:200px;
+    border-radius: 5px;
+}
+
+.showcaseSkillUpTwo{
+    width:100%;
+    padding-bottom: 15px;
+    padding-top:3rem;
+    position:relative;
+    background: rgb(216, 216, 216);
+}
+
+.skill_up_two h5{
+    color:rgb(0, 42, 78);
+}
+
+.showcasefooter{
+    width:100%;
+    padding-bottom: 15px;
+    padding-top:3rem;
+    position:relative;
+    background: rgb(48, 48, 48);
+    color:#fff;
+}
+
+.register-bottom-button{
+    margin-left: 8px;
+}
+
+#pay-bottom-button{
+    padding:7px 12px;
+    margin: 8px;
+    background-color: rgb(170, 34, 0);
+    border-radius: 30px;
+    color: white;
+    border: 0px;
+}
+
+#phone-icon{
+    padding:10px;
+    margin: 8px;
+    background-color: rgb(170, 34, 0);
+    border-radius: 30px;
+    border: 0px;
+}
+
+.showcasefooter #line{
+    border-left: 2px solid rgb(129, 129, 129);
+    position: absolute;
+    left: 37%;
+    height: 150px;
+    top:20%;
+}
+
+.showcasefooter #Registerline{
+    border-left: 2px solid rgb(129, 129, 129);
+    position: absolute;
+    left: 61%;
+    height: 150px;
+    top:20%;
+}
+
+@media (max-width: 576px) {
+    h3{
+        font-weight: bold;
+        font-size: 1.7rem;
+        color: rgb(0, 87, 158);
+    }
+
+    #nau, #ieee{
+        width:60px;
+        height:60px;
+    }
+
+    .container #header-text h5{
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: rgb(0, 87, 158);
+    }
+
+    #two-column-text{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    #two-column-text h3{
+        font-size: 1.5rem;
+    }
+
+    #two-column-image{
+        margin-top: 0px;
+        width:300px;
+        margin-left: 15%;
+    }
+
+    .skill_up_One #skill_up_One_imgs{
+        width:230px;
+        height:180px;
+    }
+
+    .skill_up_two h3{
+        font-size: 1.5rem;
+    }
+    
+    .skill_up_two #skill_up_two_imgs{
+        width:230px;
+        height:180px;
+    }
+
+    .showcasefooter #firstCol{
+        margin-bottom: 2.5rem;
+    }
+
+    .showcasefooter #secondCol{
+        margin-bottom: 2.5rem;
+    }
+
+    .showcasefooter #secondCol h2{
+        font-size: 1.6rem;
+    }
+
+    .showcasefooter #line{
+        border-left: 18rem solid rgb(129, 129, 129);
+        position: absolute;
+        height: 1px;
+        top:36%;
+        left:25%;
+    }
+    
+    .showcasefooter #Registerline{
+        border-left: 18rem solid rgb(129, 129, 129);
+        position: absolute;
+        height: 1px;
+        top:61%;
+        left:25%;
+    }
+}
+
+    @media (max-width: 992px) {
+
+        .showcasefooter #thirdCol{
+            margin-top: 2.5rem;
+        }
+
+        .showcasefooter #line{
+            border-left: 30rem solid rgb(129, 129, 129);
+            position: absolute;
+            height: 1px;
+            top:48%;
+            left:25%;
+        }
+        
+        .showcasefooter #Registerline{
+            border-left: 0rem solid rgba(129, 129, 129, 0);
+            position: absolute;
+            height: 1px;
+            top:58%;
+            left:25%;
+        }
+    }
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
