@@ -122,6 +122,8 @@ a:hover{
 
 .register-bottom-button{
     margin-left: 8px;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
 }
 
 #pay-bottom-button{
@@ -131,6 +133,8 @@ a:hover{
     border-radius: 30px;
     color: white;
     border: 0px;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
 }
 
 #phone-icon{
