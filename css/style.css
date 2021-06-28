@@ -178,7 +178,6 @@ a:hover{
     #two-column-image{
         margin-top: 0px;
         width:300px;
-        /* margin-left: auto; */
     }
 
     .skill_up_One #skill_up_One_imgs{
@@ -230,8 +229,8 @@ a:hover{
             margin-top: 2.5rem;
         }
 
-        /* .showcasefooter #line{
-            border-left: 30rem solid rgb(129, 129, 129);
+        .showcasefooter #line{
+            border-left: 0rem solid rgb(129, 129, 129);
             position: absolute;
             height: 1px;
             top:48%;
@@ -244,7 +243,7 @@ a:hover{
             height: 1px;
             top:58%;
             left:25%;
-        } */
+        }
     }
 
 
